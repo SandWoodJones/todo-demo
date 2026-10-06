@@ -1,0 +1,11 @@
+[project]
+name = "todo-demo"
+version = "1.0"
+dependencies = ["flask"]
+
+[project.scripts]
+todo-demo = "todo_demo.app:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
